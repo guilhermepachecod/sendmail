@@ -1,0 +1,17 @@
+Simple example of an e-mail message form using PHPMailer.
+The project was developed in HTML, CSS, JAVASCRIPT, JSON, PHP, PHPMailer, Font-awesome, W3schools, JQuery.
+
+The project contains the index.html, functions.js, send_mail.php, and config.php files;
+
+In index.html, we have in addition to the calls to the other files, we also have a style section with a CSS, besides the form box, animation and return message.
+
+In functions.js we have the javascript file that treats the fields, besides executing animations, transactions and returns.
+
+In send_mail.php we have all the programming for sending the email in addition to all calls to PHPMailer.
+
+The config.php file contains only the definition of all the parameters of the e-mail sending.
+
+In the default folder of the project there is still a phpmailer folder, which contains the minimum of files for sending emails by SMTP format, for more formats see the PHPMailer main page.
+
+See more of the PHPMailer project at https://github.com/PHPMailer/PHPMailer
+

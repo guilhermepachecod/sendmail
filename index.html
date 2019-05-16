@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Send Mail</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script language="JavaScript" src="functions.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<style>
+	<!-- css with the error pattern for the inputs -->
+.error{
+	background-color: #FA5858;
+}
+</style>
+<body>
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:12px 16px" id="contact">
+  <h3 class="w3-center">Contact Send Mail.</h3>
+  <p class="w3-center w3-large">Please send us a mensagem:</p>
+  <div class="w3-row-padding" style="margin-top:5px">
+    <div>
+		<!-- div with the message box -->
+      <div id="boxmail">
+        <p><input class="w3-input w3-border" type="text" id="txtname" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" id="txtmail" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" id="txtsub" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" id="txtbody" placeholder="Message" required name="Mesage"></p>
+      
+        <p>
+          <button id="mailsendbutton" onclick="MYCONN.events.sendmail();" class="w3-button w3-black">
+            <i class="fa fa-paper-plane"></i> Send the message
+          </button>
+        </p>
+      </div>
+      <!-- div with amimation while the server sends the message -->
+      <div id="boxloading" style="display:none;align:center;">
+        <p><i class="fa fa-gear fa-spin" style="font-size:120px"></i>
+        </p>
+      </div<!-- div with the return message -->
+      <div id="boxendmsg" style="display:none;align:center;">
+        <p>Thank you very much for the contact soon we will return your email.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

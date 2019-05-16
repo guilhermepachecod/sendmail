@@ -1,0 +1,17 @@
+Simples exemplo de um formulário de envio de mensagem por e-mail utilizando o PHPMailer.
+O projeto foi desenvolvido em HTML, CSS, JAVASCRIPT, JSON, PHP, PHPMailer, Font-awesome, W3schools, JQuery.
+
+O projeto contem os arquivos de index.html, functions.js, send_mail.php e config.php;
+
+No index.html, temos alem das chamadas para os outros arquivos, temos tbm uma seção de style com um CSS, alem de toda a caixa de formulário, animação e mensagem de retorno.
+
+No functions.js temos o arquivo javascript que trata os campos, além de executar animações, tratativas e retornos.
+
+No send_mail.php temos toda a programação para o envio do e-mail alem de todas as chamadas para o PHPMailer.
+
+O arquivo config.php contem apenas a definição de todos os parametros do envio do e-mail.
+
+Na pasta padrão do projeto ainda tempos uma pasta phpmailer, que contem o minimo de arquivos para o envio de e-mails pelo formato SMTP, para mais formatos consulte a pagina principal do PHPMailer.
+
+Veja mais do projeto PHPMailer em https://github.com/PHPMailer/PHPMailer
+
